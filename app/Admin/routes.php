@@ -12,6 +12,6 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
     $router->resource('demo/users', UserController::class);
-
+    $router->resource('demo/movies', MovieController::class);
 });
 
